@@ -8,6 +8,20 @@
       "expo-router"
     ],
     "name": "job_finder",
-    "slug": "job_finder"
+    "slug": "job_finder",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "34de8ff8-432c-42db-8afd-9cb97b547c8b"
+      }
+    },
+    "android": {
+      "package": "com.dankamn.job_finder"
+    },
+    "ios": {
+      "bundleIdentifier": "com.DANKAMN.jobfinder"
+    }
   }
 }
